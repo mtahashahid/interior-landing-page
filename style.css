@@ -184,12 +184,87 @@ header {
 }
 /* Services CSS */
 .section__heading {
-   font-family: 'PT Serif', serif;
-   font-size: 2.8rem;
-   color: #0b2626;
-   font-weight: 300;
+  font-family: "PT Serif", serif;
+  font-size: 2.8rem;
+  color: #0b2626;
+  font-weight: 300;
 }
-.section__description{
+.section__description {
   margin-top: 1rem;
   color: var(--text);
+}
+.services__cards {
+  display: flex;
+  /* justify-content:space-around; */
+  gap: 1rem;
+  margin-top: 3rem;
+ 
+}
+.cards {
+  padding: 2rem 3rem 2rem 3rem;
+  border-radius: 1rem;
+}
+.card__odd h1{
+  font-family: "PT Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.card__even h1{
+  font-family: "PT Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #fff;
+}
+.card__odd h1{
+  font-family: "PT Serif", serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.card__odd p{
+  color: var(--text);
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.card__even p{
+  color: #fff !important;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.card__odd a{
+  text-decoration: underline;
+  color: #0b2626;
+  font-weight: 500;
+}
+.card__even p{
+  color: var(--text);
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.card__even a{
+  text-decoration: underline;
+  color: #fff;
+  font-weight: 500;
+}
+.services__cards .card__odd {
+  border: 2px solid rgba(128, 128, 128, 0.101);
+}
+.services__cards .card__even i{
+  font-size: 1.5rem;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #fff;
+  padding: 0.5em 0.8em;
+  margin-bottom: 1.5rem;
+  color: #ff7b02;
+}
+.services__cards .card__odd i{
+  font-size: 1.5rem;
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0 0 2px #0b2626;
+  padding: 0.5em 0.8em;
+  margin-bottom: 1.5rem;
+}
+.services__cards .card__even{
+  background-color: #0b2626;
 }
