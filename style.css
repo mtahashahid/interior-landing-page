@@ -196,7 +196,7 @@ header {
 .services__cards {
   display: flex;
   /* justify-content:space-around; */
-  gap: 1rem;
+  gap: 3rem;
   margin-top: 3rem;
  
 }
@@ -224,6 +224,13 @@ header {
   color: var(--text);
   margin-top: 1rem;
   margin-bottom: 2.5rem;
+}
+.card__odd:hover{
+  background: #0b2626;
+  /* border: 2px solid #0b2626; */
+  transition: all 0.5s ease-in-out;
+  color: #fff !important;
+  
 }
 .card__even p{
   color: #fff !important;
@@ -261,10 +268,32 @@ header {
   font-size: 1.5rem;
   display: inline-block;
   border-radius: 60px;
-  box-shadow: 0 0 2px #0b2626;
+  box-shadow: 0 0 2px #ff7b02;
   padding: 0.5em 0.8em;
   margin-bottom: 1.5rem;
 }
+
 .services__cards .card__even{
   background-color: #0b2626;
+}
+/* Team CSS */
+.team__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+  margin-top: 5rem;
+}
+.team__container .team__left img{
+border-radius: 1rem;
+}
+.team__container .team__right h1{
+  font-family: "PT Serif", serif;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.team__container .team__right p{
+  color:var(--text);
+  margin: 2rem 0rem;
 }
